@@ -14,3 +14,17 @@ mtime_ms = 1791463888167
 storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:3ed803f3-fbe0-453c-9781-cd369c04b807/f4da31b9-7daa-4989-9665-b85e4e5d4f5c/231fff50-703e-4b63-89cf-299487a166a0"
 storage_version_token = "1791464647755656"
 content_type = "text/csv"
+
+[[outputs]]
+id = "63sf1fbLixYFMpg7dB7QS"
+uri = "file://.agents/outputs/campaign-performance-analysis.md"
+type = "text"
+title = "Campaign Performance — Detailed Analysis"
+description = "Detailed analysis of the dashboard’s synthetic sample data, including platform, goal, audience, campaign, time-window results, recommendations, and data limitations."
+logical_id = "b95aa4f4-af9d-4252-a6de-a50c6ba815d5"
+content_hash = "sha256:2dac6106b96c1f5a21fcdfe2c1f215551e57be698e4ec7ae68277130a2d8e800"
+size = 9171
+mtime_ms = 1791465220868
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:3ed803f3-fbe0-453c-9781-cd369c04b807/b95aa4f4-af9d-4252-a6de-a50c6ba815d5/98dc35b7-c327-4345-800b-7e21cf0cfd32"
+storage_version_token = "1791465257809211"
+content_type = "text/markdown"
