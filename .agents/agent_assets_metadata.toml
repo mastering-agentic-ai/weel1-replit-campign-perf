@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "TSyGKkGUaNXDsQQ0FxOyz"
+uri = "file://artifacts/api-server/data/campaign_performance.csv"
+type = "table"
+title = "Sample campaign performance CSV"
+description = "Fictional daily campaign data for 40 campaigns across Facebook, Instagram, Pinterest, and Twitter. Includes spend, clicks, conversions, and attributed revenue from April 11 to October 7, 2026."
+logical_id = "f4da31b9-7daa-4989-9665-b85e4e5d4f5c"
+content_hash = "sha256:92c9e1a0d9fdcc26ae9fb1101c32613331e4b946e12b0c2273b933ece3d64bfa"
+size = 618493
+mtime_ms = 1791463888167
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:3ed803f3-fbe0-453c-9781-cd369c04b807/f4da31b9-7daa-4989-9665-b85e4e5d4f5c/231fff50-703e-4b63-89cf-299487a166a0"
+storage_version_token = "1791464647755656"
+content_type = "text/csv"

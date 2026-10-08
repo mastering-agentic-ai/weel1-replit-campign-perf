@@ -24,6 +24,25 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /campaigns.csv:
+    get:
+      operationId: getCampaignCsv
+      tags: [campaigns]
+      summary: Download the sample campaign performance dataset
+      description: Returns the bundled synthetic daily campaign performance CSV.
+      responses:
+        "200":
+          description: Campaign performance rows in CSV format
+          content:
+            text/csv:
+              schema:
+                type: string
+        "500":
+          description: The sample campaign data could not be read
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +52,11 @@ components:
           type: string
       required:
         - status
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error
 

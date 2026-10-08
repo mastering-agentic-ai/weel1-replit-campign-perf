@@ -1,6 +1,6 @@
-# [Project name]
+# Social Campaign Performance Dashboard
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A campaign analytics dashboard for comparing paid-social spend, clicks, conversions, and ROI across Facebook, Instagram, Pinterest, and Twitter.
 
 ## Run & Operate
 

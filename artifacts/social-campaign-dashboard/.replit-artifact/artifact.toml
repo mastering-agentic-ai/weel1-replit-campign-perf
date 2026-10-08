@@ -1,0 +1,28 @@
+kind = "data-app"
+previewPath = "/"
+title = "Social Campaign Performance"
+description = "An interactive marketing dashboard for comparing spend, clicks, conversions, and return on investment across Facebook, Instagram, Pinterest, and Twitter, with date, audience, and campaign-goal filters and searchable campaign details."
+version = "1.0.0"
+id = "artifacts/social-campaign-dashboard"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23140
+
+[services.development]
+run = "pnpm --filter @workspace/social-campaign-dashboard run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/social-campaign-dashboard", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/social-campaign-dashboard/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23140"
+BASE_PATH = "/"
